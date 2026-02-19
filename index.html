@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Mwangi UNEP Mission Tracker System </title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Andrew Mwangi UNEP Mission Tracker System Project</h1>
+            <p>Field Mission Management System</p>
+        </header>
+        
+        <section class="form-card">
+            <form id="missionForm">
+                <input type="text" id="mission_name" placeholder="Mission Name" required>
+                <input type="text" id="destination" placeholder="Destination" required>
+                <input type="date" id="mission_date" required>
+                <button type="submit">Register Mission</button>
+            </form>
+        </section>
+
+        <section class="table-card">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mission</th>
+                        <th>Destination</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody id="missionData"></tbody>
+            </table>
+        </section>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

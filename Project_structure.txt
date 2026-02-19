@@ -1,0 +1,24 @@
+unep-tracker/
+│
+├── backend/                # PHP Logic & API
+│   ├── config.php          # Active database connection (local)
+│   ├── config.sample.php   # Template for other developers (GitHub)
+│   └── submit.php          # The API endpoint that saves data
+│
+├── frontend/               # User Interface (Vue.js)
+│   ├── index.html          # Main entry page
+│   ├── assets/
+│   │   ├── css/            # Custom styles
+│   │   └── js/             # Vue.js logic (app.js)
+│   └── components/         # (Optional) Modular Vue files
+│
+├── database/               # SQL Scripts
+│   └── schema.sql          # The file to rebuild the DB
+│
+├── docs/                   # Exam Deliverables
+│   ├── ui_input.png        # Form screenshot
+│   ├── api_response.png    # JSON success screenshot
+│   └── db_proof.png        # Database record screenshot
+│
+├── .gitignore              # Tells Git to hide config.php
+└── README.md               # Your technical documentation
